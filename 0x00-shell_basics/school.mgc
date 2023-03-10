@@ -1,4 +1,8 @@
 #!/bin/bash
+[Got]
+
+(0 chars long)
+
 [Expected]
 0-current_working_directory: text/plain
 100-lets_move:               text/plain
@@ -26,3 +30,4 @@ file_school1:                School
 file_test0:                  inode/x-empty
 h_school.mgc:                application/octet-stream
 README.md:     ...
+(2160 chars long)
