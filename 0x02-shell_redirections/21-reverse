@@ -1,2 +1,2 @@
 #!/bin/bash
-$ cat input_file | ./reverse.sh > output_file
+rev
