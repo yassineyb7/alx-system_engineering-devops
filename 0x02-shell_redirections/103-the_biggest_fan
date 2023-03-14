@@ -1,3 +1,2 @@
 #!/bin/bash
 awk -F'\t' '{print $1}' /path/to/log/file.tsv | sort | uniq -c | sort -rn | head -n 11
-
