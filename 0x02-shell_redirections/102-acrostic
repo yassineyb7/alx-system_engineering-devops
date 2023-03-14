@@ -1,1 +1,2 @@
 #!/bin/bash
+decoded=""; while read -r line; do first_letter=$(echo "$line" | cut -c1); decoded="${decoded}${first_letter}"; done < "$1"; printf "%s\n" "$decoded"
