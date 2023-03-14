@@ -1,2 +1,2 @@
 #!/bin/bash
-(set -o posix ; set) | awk '/^[a-zA-Z_]+[a-zA-Z0-9_]*=/{print $1}' ; printenv | awk -F= '{print $1}' | xargs -I {} echo {} = ${} ; declare -F | awk '{print $3}'
+set
